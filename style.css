@@ -32,6 +32,8 @@ p {
   overflow-y: auto;
   /* Enable scrolling */
   font-size: 14px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /* Input field */
