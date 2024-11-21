@@ -21,3 +21,8 @@ myGame.botAction('respond', 'Send a text response to the user', { message: 'What
 	// Add the bot's response to the conversation
 	document.getElementById('conversation').innerHTML += '<p>Gr1m: ' + data.message + '</p>'
 })
+
+function pageScroll() {
+    window.scrollBy(0,1);
+    scrolldelay = setTimeout(pageScroll,10);
+}
